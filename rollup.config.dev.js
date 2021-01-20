@@ -49,6 +49,6 @@ module.exports = {
     external:[ //哪些模块作为外部引用，使用后该模块会变为import {} from 'sam-test-data',
         // 而不是直接将代码合并
         //     'sam-test-data'
-        'vue'
+        'vue','echarts'
     ],
 }
